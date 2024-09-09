@@ -1,8 +1,8 @@
 import { useState } from "react"
-import CoinTable from "./Components/CoinTable/cointable"
-import Navbar from "./Components/Navbar/Navbar"
+// import CoinTable from "./Components/CoinTable/cointable"
+// import Navbar from "./Components/Navbar/Navbar"
 // import {Bannerimage} from "./Components/Bannerimage/Bannerimage"
-import { QueryClient, QueryClientProvider } from "react-query"
+// import { QueryClient, QueryClientProvider } from "react-query"
 import { Haome } from "./pages/Haome"
 import { Currencycontext } from "./Context/currencyContext"
 
