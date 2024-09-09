@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import Navbar from "../Components/Navbar/Navbar";
-import Cointable from "../Components/CoinTable/cointable";
+import Cointable from "../Components/CoinTable/CoinTable.jsx";
 import { Bannetimage } from "../Components/Bannerimage/Bannerimage"
 import { useContext, useState } from "react";
 import { Currencycontext } from "../Context/currencyContext";
