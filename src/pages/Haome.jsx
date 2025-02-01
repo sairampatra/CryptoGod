@@ -5,7 +5,7 @@ import { Bannetimage } from "../Components/Bannerimage/Bannerimage"
 import { useContext, useState } from "react";
 import { Currencycontext } from "../Context/currencyContext";
 import { store } from "../state/store";
-export function Haome() {
+ function Haome() {
     const queryClient = new QueryClient()
 
    
@@ -15,8 +15,8 @@ export function Haome() {
 const currency = store((state) => state.currency)
     return <>
     <QueryClientProvider client={queryClient}>
-{currency} 
- <Navbar />
+{/* {currency}  */}
+
 
   <Bannetimage/>
   <Cointable  />
@@ -25,3 +25,5 @@ const currency = store((state) => state.currency)
     
   </> 
 }
+
+export default Haome;

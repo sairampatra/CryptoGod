@@ -3,8 +3,9 @@ import { useState } from "react"
 // import Navbar from "./Components/Navbar/Navbar"
 // import {Bannerimage} from "./Components/Bannerimage/Bannerimage"
 // import { QueryClient, QueryClientProvider } from "react-query"
-import { Haome } from "./pages/Haome"
+import  Haome  from "./pages/Haome"
 import { Currencycontext } from "./Context/currencyContext"
+import Routing from "./Components/Routing/Routing"
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   // let [showallah , setallah] = useState(false)
   return <Currencycontext.Provider value={{currency,setcurrency}}>
   {/* return <Currencycontext.Provider value={{currency,setcurrency}}> */}
-    <Haome />
+    <Routing />
   </Currencycontext.Provider>
 }
 
