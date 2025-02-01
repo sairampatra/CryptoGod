@@ -26,6 +26,7 @@ export function CoinInfoContainer({ coinId }) {
       staleTime: 1000 * 60 * 2,
       cacheTime: 1000 * 60 * 2,
     }
+    // d  
   );
   if (isLoading) {
     return <ContentLoader />;
