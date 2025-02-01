@@ -4,7 +4,7 @@ import { fetchCoinDetails } from "../services/FetchCoinDetails";
 import parse from "html-react-parser";
 import { store } from "../state/store";
 import ContentLoader from "react-content-loader";
-import { CoinInfoContainer } from "../Components/CoinInfo/CoinInfoContainer";
+import {CoinInfoContainer} from "../Components/CoinInfo/CoinInfoContainer"
 
 function CoinDetailsPage() {
   let { coinId } = useParams();
