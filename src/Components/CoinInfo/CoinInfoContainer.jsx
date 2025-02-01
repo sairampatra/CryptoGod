@@ -1,9 +1,9 @@
 import { useQuery } from "react-query";
-import CoinInfo from "./Coininfo";
 import { FetchCoinHystoricData } from "../../services/FetchCoinHystoricData";
 import { store } from "../../state/store";
 import { useState } from "react";
 import ContentLoader from "react-content-loader";
+import CoinInfo from "../CoinInfo/CoinInfo"
 import Alert from "../Alert/Alert";
 
 export function CoinInfoContainer({ coinId }) {
